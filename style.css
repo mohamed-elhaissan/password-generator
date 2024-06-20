@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(28, 109, 143);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+h1 {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.input-faield {
+    position: relative;
+    margin: 20px 0px;
+}
+
+.input-faield input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .4);
+    outline: none;
+    font-size: 14px;
+    border-radius: 5px;
+    /* background-color:  rgb(240,245,247); */
+}
+
+.input-faield ion-icon {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.input-faield ion-icon:hover {
+    background-color: rgba(28, 109, 143, .5);
+
+}
+
+h2 {
+    font-weight: 400;
+    color: rgb(28, 109, 143);
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+input[type="range"] {
+    width: 100%;
+    color: rgb(28, 109, 143);
+}
+
+input[type="range"] {
+    accent-color: rgb(28, 109, 143);
+}
+
+.lenght {
+    margin: 10px 0px;
+}
+.setting {
+    margin: 10px 0px;
+}
+.setting ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.setting ul li {
+    width: calc(100%/3);
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+
+}
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(28, 109, 143, 1);
+    cursor: pointer;
+    font-size: 18px;
+}

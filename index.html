@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Password-Generator </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Password Generator </h1>
+        <div class="input-faield">
+            <input type="text" id="password" placeholder="Your Password">
+            <ion-icon name="copy-outline"></ion-icon>
+        </div>
+        <div class="lenght">
+            <h2>Password Lenght</h2>
+            <input type="range" id="range" min="1" max="20">
+
+        </div>
+        <div class="setting">
+            <h2>Password Setting</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="lowercase">
+                    Lowercase(a-z)
+                </li>
+                <li>
+                    <input type="checkbox" id="Numbers">
+                    Numbers(1-9)
+                </li>
+                <li>
+                    <input type="checkbox" id="Exulde">
+                    Exulde
+                </li>
+                <li>
+                    <input type="checkbox" id="Uppercase">
+                    Uppercase(A-Z)
+                </li>
+                <li>
+                    <input type="checkbox" id="Symbols">
+                    Symbols
+                </li>
+                <li>
+                    <input type="checkbox" id="Spaces">
+                    Spaces
+                </li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button>Generate Password</button>
+        </div>
+    </div>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
